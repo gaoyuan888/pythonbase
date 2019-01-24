@@ -46,6 +46,7 @@ my_list = [10,1,20,3,4,5,0,-2]
 
 print('修改前',my_list)
 
-my_list.sort(reverse=True)
+# my_list.sort(reverse=True) # 降序排列
+my_list.sort() # 升序排列
 print('修改后',my_list)
 # print('修改后：',stus)
